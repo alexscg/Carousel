@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Code Test</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link type="text/css" href="codetest.css" rel="stylesheet" />
+	<link type="text/css" href="carousel.css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="carousel.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.carousel').myCar({
+                slidesToScroll: 4
+			});
+		});
+	</script>
+
+</head>
+<body>
+	<h1>Code Test Carousel</h1>
+
+	<main>
+		<p>
+			I prefer not to reinvent the wheel and would use one of the very many open source solution that best fits my requirements, but if I had to roll my own I would start with something like this and then extend as needed.
+		</p>
+		<p>
+			I would also build the project and manage dependencies with grunt or gulp and use less or sass for css.  I also went with a more dynamic responsive aproach rather then making slides smaller while keeping the same number of them per view.  At any rate, this is just a quick POC and by no means a robust implementation; will probably blow up in IE, works in Chrome and FF.
+		</p>
+		
+		<input id="tab1" type="radio" name="tabs" checked>
+		<label for="tab1">Carousel</label>
+
+		<input id="tab2" type="radio" name="tabs">
+		<label for="tab2">Another Tab</label>
+
+		<input id="tab3" type="radio" name="tabs">
+		<label for="tab3">Third Tab</label>
+		
+		<section id="content1">
+			<div class="carousel">
+				<ul>
+					<li>
+						<h1>Title 01</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 02</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 03</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 04</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 05</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 06</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 07</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 08</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 09</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 10</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+					<li>
+						<h1>Title 11</h1>
+						<img src="http://dummyimage.com/100x100/000000/fff.png&text=code" />
+						<button type="button">Read More</button>
+					</li>
+				</ul>
+			</div>
+			<p>Why roll your own carousel(?)... because you can!</p>
+		</section>
+
+		<section id="content2">
+			<p>
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p>
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+
+		<section id="content3">
+			<p>
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+		
+	</main>
+</body>
