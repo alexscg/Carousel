@@ -85,6 +85,13 @@ input:checked + label {
   display: block;
 }
 
+.lolcat {
+    margin: 0 auto 20px;
+    position: relative;
+    display: block;
+	border-radius: 10px;
+}
+
 @media screen and (max-width: 920px) {
 	main {
 		max-width: 700px;
